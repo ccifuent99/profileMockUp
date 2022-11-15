@@ -1,0 +1,125 @@
+.editTab{
+    display:flex;
+    justify-content: space-evenly;
+ 
+}
+.editTab img {
+    display: flex;
+    vertical-align: bottom;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px #84a59d;
+    cursor: pointer;
+}
+
+.editTab h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: left;
+}
+.editTab h3 {
+    margin-top: 0;
+    text-align: left;
+}
+.editTab .editDetails{
+    margin: 1rem;
+	vertical-align: middle;
+	text-align: left;
+	letter-spacing: 2px;
+	font-size: 1rem;
+	background-color: #fdfaf7;
+    border: 5px #84a59d;
+    padding: 20px;
+}
+
+.editTab input {
+    color: black;
+    background-color: white;
+}
+
+.editTab span{
+    white-space: nowrap;
+    font-family: verdana;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.Profile{
+    display:flex;
+    justify-content: flex-start;
+  
+}
+
+.Profile img {
+    display: flex;
+    vertical-align: bottom;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px #84a59d;
+}
+
+.Profile h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: left;
+}
+.Profile h3 {
+    margin-top: 0;
+    text-align: left;
+}
+
+
+.Profile input {
+    color: black;
+    background-color: white;
+}
+
+.Profile span{
+    white-space: nowrap;
+    font-family: verdana;
+    font-weight: 300;
+    margin: 0;
+}
+
+.Profile h6 {
+    margin: 0;
+}
+
+.Profile h4 {
+    font-family: verdana;
+    font-weight: 300;
+}
+.Profile table {
+    display: flex;
+    justify-content: flex-start;
+    border-color: #84a59d;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.Profile .userDetails{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column ;
+    background-color: #fdfaf7;
+    border: 5px #84a59d;
+    padding: 20px;
+    align-items: flex-start;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+    margin: 1rem;
+    vertical-align: middle;
+    text-align: left;
+	letter-spacing: 2px;
+	font-size: 1rem;
+}
+
+.Profile .userDetails .editBtn {
+    
+}
